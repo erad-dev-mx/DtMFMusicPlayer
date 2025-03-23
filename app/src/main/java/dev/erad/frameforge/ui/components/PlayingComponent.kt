@@ -8,10 +8,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import dev.erad.frameforge.R
 import dev.erad.frameforge.ui.theme.DtMFMusicPlayerTheme
 
 @Composable
@@ -23,7 +25,7 @@ fun PlayingComponent(modifier: Modifier = Modifier) {
         contentAlignment = Alignment.Center
     ) {
         Text(
-            "Playing DeBÍ TiRAR MáS FOToS at Samsung Galaxy S25 Ultra",
+            stringResource(R.string.text_playing),
             style = MaterialTheme.typography.bodySmall,
             modifier = modifier,
             maxLines = 2,

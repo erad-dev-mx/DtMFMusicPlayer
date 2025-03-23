@@ -13,6 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import dev.erad.frameforge.R
@@ -26,7 +27,7 @@ fun SongControllersComponent(modifier: Modifier = Modifier) {
     ) {
         Image(
             painter = painterResource(R.drawable.ic_skip_back),
-            contentDescription = "Last Page Icon",
+            contentDescription = stringResource(R.string.cd_skip_back_icon),
             modifier = modifier
                 .size(60.dp)
                 .clickable { },
@@ -35,7 +36,7 @@ fun SongControllersComponent(modifier: Modifier = Modifier) {
         Spacer(modifier = modifier.width(8.dp))
         Image(
             painter = painterResource(R.drawable.ic_play),
-            contentDescription = "Last Page Icon",
+            contentDescription = stringResource(R.string.cd_play_icon),
             modifier = modifier
                 .size(100.dp)
                 .clickable { },
@@ -44,7 +45,7 @@ fun SongControllersComponent(modifier: Modifier = Modifier) {
         Spacer(modifier = modifier.width(8.dp))
         Image(
             painter = painterResource(R.drawable.ic_skip_fwd),
-            contentDescription = "Last Page Icon",
+            contentDescription = stringResource(R.string.cd_skip_fwd_icon),
             modifier = modifier
                 .size(60.dp)
                 .clickable { },

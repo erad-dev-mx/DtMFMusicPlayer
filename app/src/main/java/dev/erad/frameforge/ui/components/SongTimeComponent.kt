@@ -13,8 +13,10 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import dev.erad.frameforge.R
 import dev.erad.frameforge.ui.theme.DtMFMusicPlayerTheme
 
 @Composable
@@ -36,11 +38,11 @@ fun SongTimeComponent(modifier: Modifier = Modifier) {
         }
         Spacer(modifier = modifier.height(16.dp))
         Row(modifier = modifier) {
-            Text(text = "0:40", style = MaterialTheme.typography.bodySmall)
+            Text(text = stringResource(R.string.text_current_time), style = MaterialTheme.typography.bodySmall)
             Spacer(modifier = Modifier.width(8.dp))
-            Text(text = "/", style = MaterialTheme.typography.bodySmall)
+            Text(text = stringResource(R.string.text_time_spacer), style = MaterialTheme.typography.bodySmall)
             Spacer(modifier = Modifier.width(8.dp))
-            Text(text = "3:57", style = MaterialTheme.typography.bodySmall)
+            Text(text = stringResource(R.string.text_total_time), style = MaterialTheme.typography.bodySmall)
         }
     }
 }

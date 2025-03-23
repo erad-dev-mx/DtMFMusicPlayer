@@ -13,9 +13,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import dev.erad.frameforge.R
 import dev.erad.frameforge.ui.theme.DtMFMusicPlayerTheme
 
 @Composable
@@ -28,13 +30,13 @@ fun TitleSongComponent(modifier: Modifier = Modifier) {
     ) {
         Column(modifier = modifier.weight(4f)) {
             Text(
-                "DtMF",
+                stringResource(R.string.text_song),
                 style = MaterialTheme.typography.titleLarge,
                 color = MaterialTheme.colorScheme.secondary,
                 fontWeight = FontWeight.Bold
             )
             Text(
-                "Bad Bunny",
+                stringResource(R.string.text_artist),
                 style = MaterialTheme.typography.titleMedium,
                 color = MaterialTheme.colorScheme.secondary,
                 fontWeight = FontWeight.Bold
@@ -42,7 +44,7 @@ fun TitleSongComponent(modifier: Modifier = Modifier) {
         }
         Icon(
             imageVector = Icons.Default.FavoriteBorder,
-            contentDescription = "Favorite Icon",
+            contentDescription = stringResource(R.string.cd_favorite_icon),
             modifier = modifier
                 .weight(1f)
                 .clickable {},

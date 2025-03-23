@@ -28,7 +28,7 @@ fun LyricsComponent(modifier: Modifier = Modifier) {
     ) {
         Column {
             Text(
-                stringResource(R.string.dtmf_lyrics),
+                stringResource(R.string.text_lyrics),
                 style = MaterialTheme.typography.bodyLarge,
                 fontWeight = FontWeight.Bold,
                 modifier = modifier.padding(16.dp)
