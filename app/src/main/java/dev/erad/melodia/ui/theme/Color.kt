@@ -1,4 +1,4 @@
-package dev.erad.frameforge.ui.theme
+package dev.erad.melodia.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

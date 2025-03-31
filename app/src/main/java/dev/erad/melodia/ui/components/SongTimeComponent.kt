@@ -1,4 +1,4 @@
-package dev.erad.frameforge.ui.components
+package dev.erad.melodia.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -16,8 +16,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import dev.erad.frameforge.R
-import dev.erad.frameforge.ui.theme.DtMFMusicPlayerTheme
+import dev.erad.melodia.R
+import dev.erad.melodia.ui.theme.DtMFMusicPlayerTheme
 
 @Composable
 fun SongTimeComponent(modifier: Modifier = Modifier) {

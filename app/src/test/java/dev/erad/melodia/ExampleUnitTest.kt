@@ -1,4 +1,4 @@
-package dev.erad.frameforge
+package dev.erad.melodia
 
 import org.junit.Test
 

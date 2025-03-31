@@ -1,4 +1,4 @@
-package dev.erad.frameforge.ui.theme
+package dev.erad.melodia.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

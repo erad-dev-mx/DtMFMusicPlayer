@@ -4,9 +4,9 @@
 
 DtMFMusicPlayer is an Android UI demonstration app showcasing modern Material 3 design principles and Jetpack Compose implementation.
 
-![FrameForge](assets/frameforge.png)
+![Melodia](assets/melodia.png)
 
-:rocket: Part of __*[FrameForge](https://erad.dev/frameforge.html)*__ by __*[erad.dev](https://erad.dev/)*__
+:rocket: Part of __*[Melodia](https://erad.dev/melodia.html)*__ by __*[erad.dev](https://erad.dev/)*__
 
 ## :eyes: Features
 

@@ -1,4 +1,4 @@
-package dev.erad.frameforge.ui.components
+package dev.erad.melodia.ui.components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -13,8 +13,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import dev.erad.frameforge.R
-import dev.erad.frameforge.ui.theme.DtMFMusicPlayerTheme
+import dev.erad.melodia.R
+import dev.erad.melodia.ui.theme.DtMFMusicPlayerTheme
 
 @Composable
 fun PlayingComponent(modifier: Modifier = Modifier) {
