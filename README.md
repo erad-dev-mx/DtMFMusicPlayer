@@ -2,7 +2,7 @@
 
 ![DtMFMusicPlayer](assets/main.png)
 
-DtMFMusicPlayer is an Android UI demonstration app showcasing modern Material 3 design principles and Jetpack Compose implementation.
+DtMFMusicPlayer is an Android UI demonstration app.
 
 ![Melodia](assets/melodia.png)
 
