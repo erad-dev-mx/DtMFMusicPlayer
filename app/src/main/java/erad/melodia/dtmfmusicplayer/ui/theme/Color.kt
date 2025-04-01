@@ -1,4 +1,4 @@
-package dev.erad.melodia.ui.theme
+package erad.melodia.dtmfmusicplayer.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

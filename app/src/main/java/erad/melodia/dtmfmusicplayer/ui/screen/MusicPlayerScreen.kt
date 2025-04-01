@@ -1,4 +1,4 @@
-package dev.erad.melodia.ui.screen
+package erad.melodia.dtmfmusicplayer.ui.screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.fillMaxSize
@@ -10,13 +10,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import dev.erad.melodia.ui.components.CoverAlbumComponent
-import dev.erad.melodia.ui.components.LyricsComponent
-import dev.erad.melodia.ui.components.PlayingComponent
-import dev.erad.melodia.ui.components.SongControllersComponent
-import dev.erad.melodia.ui.components.SongTimeComponent
-import dev.erad.melodia.ui.components.TitleSongComponent
-import dev.erad.melodia.ui.theme.DtMFMusicPlayerTheme
+import erad.melodia.dtmfmusicplayer.ui.components.CoverAlbumComponent
+import erad.melodia.dtmfmusicplayer.ui.components.LyricsComponent
+import erad.melodia.dtmfmusicplayer.ui.components.PlayingComponent
+import erad.melodia.dtmfmusicplayer.ui.components.SongControllersComponent
+import erad.melodia.dtmfmusicplayer.ui.components.SongTimeComponent
+import erad.melodia.dtmfmusicplayer.ui.components.TitleSongComponent
+import erad.melodia.dtmfmusicplayer.ui.theme.DtMFMusicPlayerTheme
 
 @Composable
 fun MusicPlayerScreen(modifier: Modifier = Modifier) {

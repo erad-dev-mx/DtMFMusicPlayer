@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "dev.erad.melodia"
+    namespace = "erad.melodia.dtmfmusicplayer"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "dev.erad.melodia"
+        applicationId = "erad.melodia.dtmfmusicplayer"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

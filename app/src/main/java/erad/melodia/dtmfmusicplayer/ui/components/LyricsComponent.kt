@@ -1,4 +1,4 @@
-package dev.erad.melodia.ui.components
+package erad.melodia.dtmfmusicplayer.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -15,8 +15,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import dev.erad.melodia.R
-import dev.erad.melodia.ui.theme.DtMFMusicPlayerTheme
+import erad.melodia.dtmfmusicplayer.R
+import erad.melodia.dtmfmusicplayer.ui.theme.DtMFMusicPlayerTheme
 
 @Composable
 fun LyricsComponent(modifier: Modifier = Modifier) {

@@ -1,4 +1,4 @@
-package dev.erad.melodia
+package erad.melodia.dtmfmusicplayer
 
 import org.junit.Test
 
